@@ -16,7 +16,9 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  tweet.split(" ")
+
+  tweet.split(" ").each do |word|
+    if dictionary.keys.each.include?(word)
   binding.pry
 end
 
