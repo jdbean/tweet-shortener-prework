@@ -1,4 +1,4 @@
-# require "pry"
+require "pry"
 
 def dictionary
   dictionary_hash = {
@@ -30,4 +30,7 @@ def selective_tweet_shortener(tweet)
     else
       puts tweet
     end
+    binding.pry
 end
+
+selective_tweet_shortener("Hey guys, can anyone teach me how 2 b cool? I really want 2 b the best @ everything, u know what I mean? Tweeting is super fun u guys!!!!")
