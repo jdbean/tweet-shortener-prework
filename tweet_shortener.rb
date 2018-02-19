@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweet)
   tweet_text = tweet.split(" ")
-      tweet_text.collect { |x| dictionary.keys.include?(":#{x}) ? dictionary[:x] : x }
+      tweet_text.collect { |x| dictionary.keys.include?(":#{x}") ? dictionary[":#{x}"] : x }
   binding.pry
 end
 
