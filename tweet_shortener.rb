@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweet)
   tweet_text = tweet.split(" ")
-  tweet_text.collect { |x| dictionary.keys.include?(x.to_sym) ? dictionary[x.to_sym] : x }.join(" ")
+  tweet_text.collect { |x| dictionary.keys.include?(x.downcase.to_sym) ? dictionary[x.downcase.to_sym] : x }.join(" ")
 end
 
 def bulk_tweet_shortener(tweet_array)
