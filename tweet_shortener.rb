@@ -30,7 +30,10 @@ def selective_tweet_shortener(tweet)
     else
       tweet
     end
-    # binding.pry
+end
+
+def shortened_tweet_truncator
+  
 end
 
 # selective_tweet_shortener("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
