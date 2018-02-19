@@ -31,4 +31,5 @@ def selective_tweet_shortener(tweet_array)
     else
       puts tweet
     end
+  end
 end
