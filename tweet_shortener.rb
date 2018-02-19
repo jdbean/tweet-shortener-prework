@@ -20,4 +20,4 @@ def word_substituter(tweet)
   binding.pry
 end
 
-word_substituter
+word_substituter("Hey buddy, how are you?")
