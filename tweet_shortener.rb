@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweet)
   tweet_text = tweet.split(" ")
-      puts tweet_text.collect { |x| dictionary.keys.include?(:x) ? dictionary[:x] : x }
+      puts tweet_text.collect { |x| dictionary.keys.include?(x.to_sym) ? dictionary[x.to_sym] : x }
   binding.pry
 end
 
