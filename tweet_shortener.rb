@@ -21,4 +21,4 @@ def word_substituter(tweet)
   binding.pry
 end
 
-word_substituter("Hey buddy, how are you?")
+word_substituter("Hey buddy, how are you")
