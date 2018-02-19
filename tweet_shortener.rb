@@ -17,8 +17,7 @@ end
 
 def word_substituter(tweet)
   tweet_text = tweet.split(" ")
-     puts  tweet_text.collect { |x| dictionary.keys.include?(x.to_sym) ? dictionary[x.to_sym] : x }.join(" ")
-  binding.pry
+  tweet_text.collect { |x| dictionary.keys.include?(x.to_sym) ? dictionary[x.to_sym] : x }.join(" ")
 end
 
 word_substituter("Hey buddy, how are you")
