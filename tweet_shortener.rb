@@ -1,4 +1,4 @@
-# Write your code here.
+require "pry"
 
 def dictionary
   dictionary_hash = {
